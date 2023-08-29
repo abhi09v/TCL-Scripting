@@ -85,7 +85,7 @@ Give it excute permission.
 
 ### Scenario 2:
 - user provides the name of .csv file but it doesnot exist
-- <img src="Photo/5.png"> 
+  <img src="Photo/5.png"> 
 
 ### Scenario 3:
 - user requests for help regarding the excel sheet content and execution using --help
