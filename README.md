@@ -85,7 +85,7 @@ Give it excute permission.
 
 ### Scenario 2:
 - user provides the name of .csv file but it doesnot exist
-  <img src="Photo/5.png"> 
+  ![5](https://github.com/abhi09v/TCL-Scripting/assets/120673607/2259aa2c-37a9-4e85-8c53-b23788661d5a) 
 
 ### Scenario 3:
 - user requests for help regarding the excel sheet content and execution using --help
