@@ -1,0 +1,58 @@
+#!/bin/tcsh -f
+
+echo "\n\n\n\n\t\t\t\t\t\tAbhiSynth\n\n"
+
+echo "\t\tThis is openSource automation tool  created by Abhishek Verma for the Synthesis using TCL Scripting"
+echo ""
+echo "             ****"
+echo "           *** ***"
+echo "         ****   ****"
+echo "        ****     ****"
+echo "       ***************"
+echo "      *****************"
+echo "     *******************"
+echo "    ****             ****"
+echo "   ****               ****"
+echo "  ****                 ****"
+
+
+echo "AN User Inteface that will take RTL netlist and SDC constraint as input and will generate"
+echo ""
+echo "sythesized netlist and pre-layout timing report as an output. It uses Yosys open-source tools for sythesis"
+echo ""
+echo "and opentime to generate pre-layput timing report."
+
+echo ""
+echo "\t\t\torganized By: VLSI System Design Corp. Pvt. Ltd."
+
+echo
+
+echo 
+
+echo
+
+if ($#argv != 1) then 
+    echo "AbhiSynth Info: Please provide a proper the csv file" 
+exit 1
+    
+endif
+
+if (! -f $argv[1] || $argv[1] == "-help") then
+   if ($argv[1] != "-help") then
+    echo "AbhiSynth Error: Cannot find csv file $argv[1] in Directory. Exiting the Flow..."
+    exit 1
+else
+   echo USAGES: ./vsdsynth\<csv file\>
+   echo csv file consist of Desgin Name, output directory, Netlist directory, library path, constraint file
+   echo It is case sensitive
+   exit 1
+
+endif
+
+else
+
+    tclsh AbhiSynth.tcl $argv[1]
+
+endif
+
+
