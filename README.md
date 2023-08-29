@@ -1,5 +1,5 @@
 
-# TCL Workshop: From Introduction to Advanced Scripting Techniques in Design and Synthesis
+# TCL: From Introduction to Advanced Scripting Techniques in Design and Synthesis
 
 Author: Abhishek Verma
 
@@ -794,4 +794,7 @@ puts "\n"
 
 ![70](https://github.com/abhi09v/TCL-Scripting/assets/120673607/14fb27af-e4a4-4a0e-8c62-691597120b92)
 
+## Acknowlegment
+  - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
+  - [Geetima Kachari](https://github.com/Geetima2021/TCL-programming)  workshop instructor
 
