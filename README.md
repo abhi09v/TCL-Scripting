@@ -85,7 +85,7 @@ Give it excute permission.
 
 ### Scenario 2:
 - user provides the name of .csv file but it doesnot exist
-![5](https://github.com/yagnavivek/VSD_TCL_Workshop/assets/93475824/7e9547c1-5dfc-4213-bdb7-4be0677c10f6)
+![5](https://github.com/abhi09v/TCL-Scripting/blob/main/Photo/5.png)
 
 ### Scenario 3:
 - user requests for help regarding the excel sheet content and execution using --help
